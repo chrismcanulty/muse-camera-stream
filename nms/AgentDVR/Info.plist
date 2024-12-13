@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Agent DVR requires access to the camera.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Agent DVR requires access to the microphone.</string>
+    <key>com.apple.security.device.usb</key>
+    <true/>
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Agent DVR requires access to the local network to function correctly.</string>
+  </dict>
+</plist>

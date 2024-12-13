@@ -1,0 +1,1 @@
+libndi.dylib is dual format (works on x64 and arm)
